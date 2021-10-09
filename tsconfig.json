@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "noImplicitAny": false,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "importHelpers": true,
+      "composite": true,
+      "strict": false,
+      "typeRoots": [
+        "./packages/background/node_modules/@types"
+      ],
+      "outDir": "./build"
+    },
+    "include": ["packages/**/*"],
+    "exclude": ["node_modules", "build"],
+    
+}
