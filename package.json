@@ -8,7 +8,7 @@
     "typescript": "4.4.3"
   },
   "scripts": {
-    "build": "rm -rf ./build && tsc --outDir ./build"
+    "build": "rm -rf ./*/lib && tsc -b -f"
   },
   "repository": {
     "type": "git",
