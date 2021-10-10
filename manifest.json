@@ -5,8 +5,12 @@
     "manifest_version": 2,
     "background": {
         "scripts": [
-            "build/packages/background/src/BackGroundScript.js"
+            "build/packages/background/src/BackGroundScript.js",
+            "build/packages/background/src/ContentScript.js"
         ]
     },
-    "permissions": ["storage"]
+    "permissions": [
+        "storage",
+        "history"
+    ]
 }

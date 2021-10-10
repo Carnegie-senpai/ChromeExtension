@@ -1,0 +1,26 @@
+{
+    "name": "@nick/background",
+    "version": "1.0.0",
+    "description": "An extension for chrome",
+    "main": "index.js",
+    "dependencies": {
+      "@nick/opt": "1.0.0"
+    },
+    "devDependencies": {
+      "@types/chrome": "0.0.159"
+    },
+    "scripts": {
+      "build": "tsc -b ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Carnegie-senpai/ChromeExtension.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Carnegie-senpai/ChromeExtension/issues"
+    },
+    "homepage": "https://github.com/Carnegie-senpai/ChromeExtension#readme"
+  }
+  

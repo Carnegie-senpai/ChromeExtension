@@ -1,0 +1,27 @@
+{
+    "name": "@nick/opt",
+    "version": "1.0.0",
+    "description": "An extension for chrome",
+    "main": "index.js",
+    "dependencies": {
+      "react": "17.0.2"
+    },
+    "scripts": {
+      "build": "tsc -b ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Carnegie-senpai/ChromeExtension.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Carnegie-senpai/ChromeExtension/issues"
+    },
+    "homepage": "https://github.com/Carnegie-senpai/ChromeExtension#readme",
+    "devDependencies": {
+      "@types/chrome": "0.0.159",
+      "@types/react": "17.0.27"
+    }
+  }
+  

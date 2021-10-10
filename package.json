@@ -8,7 +8,7 @@
     "typescript": "4.4.3"
   },
   "scripts": {
-    "build": "tsc -b -f"
+    "build": "rm -rf ./build && tsc --outDir ./build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Carnegie-senpai/ChromeExtension#readme",
   "devDependencies": {
+    "@types/chrome": "0.0.159",
     "lerna": "^4.0.0"
   }
 }

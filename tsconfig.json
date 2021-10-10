@@ -10,12 +10,20 @@
       "importHelpers": true,
       "composite": true,
       "strict": false,
-      "typeRoots": [
-        "./packages/background/node_modules/@types"
-      ],
-      "outDir": "./build"
+      "jsx": "react",
+      "skipLibCheck": true,
     },
-    "include": ["packages/**/*"],
+    "include": ["./*"],
     "exclude": ["node_modules", "build"],
-    
+    "references": [
+      {
+        "path": "opt",
+      },
+      {
+        "path": "ui"
+      },
+      {
+        "path": "background"
+      },
+    ]
 }
